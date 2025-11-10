@@ -135,7 +135,9 @@ except ValueError:
     print("Ошибка: Введено нечисловое значение.")
 ````
 <img width="322" height="52" alt="image" src="https://github.com/user-attachments/assets/270746ef-ddba-4880-a003-c51135a861ab" />
+
 ## № 2.2.7 Используя модуль random, перемешайте элементы списка
+
 ````
 import random
 
@@ -148,9 +150,11 @@ print(f"Исходный список: {my_list}")
 shuffle_list(my_list)
 print(f"Перемешанный список: {my_list}")
 ````
+
 <img width="362" height="43" alt="image" src="https://github.com/user-attachments/assets/e47b9115-e864-43e8-9fd1-261406476d68" />
 
 ## № 2.2.8 Используя модуль datetime, вычислите количество дней между двумя датами.
+
 ````
 import datetime
 
@@ -172,9 +176,11 @@ try:
 except ValueError:
     print("Ошибка: Некорректный формат даты.")
 ````
+
 <img width="502" height="77" alt="image" src="https://github.com/user-attachments/assets/1656e6f8-e826-43ac-85b7-80339353943c" />
 
 ## № 2.2.9 Используя модуль math, найдите целую часть числа (отбросьте дробную часть).
+
 ````
 import math
 
@@ -190,9 +196,11 @@ try:
 except ValueError:
     print("Ошибка: Введено нечисловое значение.")
 ````
+
 <img width="330" height="52" alt="image" src="https://github.com/user-attachments/assets/385b02dc-a9cb-4ea0-9720-fdbe210c8713" />
 
 ## № 2.2.10 Используя модуль random, выберите один случайный элемент из списка.
+
 ````
 import random
 
@@ -204,6 +212,7 @@ my_list = ["apple", "banana", "cherry", "date", "meow"]
 print(f"Список: {my_list}")
 print(f"Случайный элемент: {choose_random_element(my_list)}")
 ````
+
 <img width="530" height="47" alt="image" src="https://github.com/user-attachments/assets/68808953-9f1f-4420-8fbf-fbff010ca120" />
 
 
